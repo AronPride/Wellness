@@ -1,0 +1,16 @@
+
+Release 4.1
+
+- Bug Fixes
+  - uart:  fix calculation of 'rx_threshold'
+  - pwrman_regs:  fix buffer byte count in rsvd001c array
+
+- Mis Fixes
+  - power:  added missing declarations and documentation
+  - rtc:  added missing declarations and documentation
+
+- New Features
+  - spi:  added support for quad-SPI
+  - spi:  APIs have modified parameters for ease of use and quad-SPI
+  - i2cm:  declare timeouts for TX and RX polling, can be overridden in mxc_conifg.h or equivalent
+ 
